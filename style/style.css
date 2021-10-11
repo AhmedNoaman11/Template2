@@ -1,0 +1,286 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans Condensed',
+        sans-serif;
+    font-family: 'Titillium Web',
+        sans-serif;
+}
+
+/* start home section */
+
+#home {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+#home .home-containt .containt {
+    color: #ffffff;
+    margin: auto;
+    margin-top:175px;
+}
+
+.home-containt .containt {
+    overflow: hidden;
+    text-align: center;
+}
+
+.home-containt .containt h1 {
+    font-size: 100px;
+    color: #FFA37B;
+}
+
+.home-containt .containt input {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .3);
+    outline: none;
+
+}
+.home-containt .containt input::placeholder{
+    color: #ffffff;
+}
+
+.home-containt .containt input[type="button"] {
+    width: 175px;
+    background-color: #FFA37B;
+    border: 0px;
+    padding: 12px;
+    
+}
+
+/* end home section */
+
+
+
+/* start services*/
+
+#services {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#services i {
+    color: #FFA37B;
+}
+
+#services h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+/* start four */
+
+#four-pic {
+    margin-top: 80px;
+
+}
+
+#four-pic img{
+    float: left;
+    width: 25%;
+    
+
+}
+
+/* start four */
+
+/* cert */
+
+#cert {
+    margin-top: 80px;
+}
+
+#cert h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+#cert .containt p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#cert .containt img {
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+/* testimonails */
+
+#testimonailas {
+    margin-top: 80px;
+    background: url("../images/testimonials.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#testimonailas .test {
+    background-color: rgba(2, 2, 2, .7);
+    min-height: 500px;
+}
+
+#testimonailas .test .test-data {
+    background: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    margin-right: 8%;
+    width: 100%;
+}
+
+#testimonailas .test .test-data h2 {
+    margin-bottom: 30px;
+}
+
+#testimonailas .test .test-data p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+#testimonailas .test .test-data .test-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+
+/* book room */
+
+#book {
+    margin-top: 80px;
+
+}
+
+#book .book-title h2 {
+    margin-bottom: 30px;
+}
+
+
+#book .book-text {
+    text-align: center;
+    padding: 0px 60px;
+    line-height: 2;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+
+#book .img-containt .img-cont {
+    width: 100%;
+}
+
+#book .img-containt .img-cont img {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+#book .ser-img {
+    width: 100%;
+}
+
+#book .ser-img img {
+    width: 100%;
+
+}
+
+#footer {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#footer .header-of-footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#footer .header-of-footer h2 {
+    border: 3px solid #000000;
+    width: 500px;
+    margin: auto;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#footer input[type="email"] {
+    border: none;
+    border-bottom: 2px solid #C6C6C6;
+    display: block;
+
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+
+}
+
+#footer input[type="button"] {
+
+    border: none;
+    padding: 15px;
+    width: 50%;
+
+    background-color: #FFA37B;
+    margin-bottom: 50px;
+    outline: none;
+
+}
+
+#footer h3{
+    font-weight: bold;
+}
+
+/* navbar */
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+
+}
+
+.navbar {
+    margin-bottom: 0px;
+
+}
+
+
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse,
+.navbar-static-top .navbar-collapse {
+    padding: 0px 50px;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #FFA37B;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFA37B;
+    font-size: 25px;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color: #FFA37B;
+    font-weight: bold;
+}

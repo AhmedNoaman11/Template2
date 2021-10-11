@@ -1,0 +1,111 @@
+#blog{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#blog .blog-contant-pic{
+    width: 100%;
+}
+
+#blog .blog-contant-text .search-list{
+    margin-bottom: 50px;
+}
+
+#blog .blog-contant-text .search-list input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    outline: none;
+}
+
+#blog .blog-contant-text .search-list input[type="button"]{
+    border: none;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+    background-color: #FFA37B;
+    outline: none;
+    cursor: pointer;
+}
+
+#blog .contant-list{
+    margin-bottom: 30px;
+}
+
+#blog .contant-list h2{
+    margin-bottom: 30px;
+}
+
+#blog .contant-list ul li{
+    margin-bottom: 15px;
+    padding: 0px 30px;
+
+}
+
+#blog .contant-list ul li:hover{
+    color: #FFA37B;
+    cursor: pointer;
+}
+
+#blog .img-datails{
+    padding: 0px 50px;
+
+}
+
+#blog .img-datails h2{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#blog .img-datails .icon-dateil{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+
+#blog .img-datails p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#blog .img-datails button{
+    border: none;
+    background-color: #FFA37B;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 200px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+#blog .blog-contant-text .blog-links {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#blog .blog-contant-text .blog-links a{
+    padding-right: 10px;
+    font-size: 16px;
+    
+    text-decoration: none;
+    color: #000000;
+}
+
+#blog .blog-contant-text .blog-links a:hover{
+    color: #FFA37B;
+}
+
+#blog .blog-contant-text .blog-pic{
+    width: 100%;
+
+}
+
+#blog .blog-contant-text .blog-pic img{
+    width: 100%;
+    margin-right: 50px;
+    height: 400px;
+    margin-left: 30px;
+}

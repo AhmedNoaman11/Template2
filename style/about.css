@@ -1,0 +1,57 @@
+#cert .containt img{
+    margin-top: 0px;
+}
+
+#cert .inner-img{
+    margin-top: 150px;
+}
+
+
+#about{
+    margin-top: 80px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+#about .about-pic{
+    width: 100%;
+    padding: 0px;
+
+}
+
+#about .about-pic img{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 0px;
+}
+
+#about .about-text h2{
+
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding:0px 30px;
+
+
+}
+
+
+#about .about-text p{
+    line-height: 2;
+    font-size: 16px;
+    padding: 0px 30px;
+
+}
+.col-lg-6{
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#testimonailas{
+    margin-top: 0px;
+}
+
+
+
